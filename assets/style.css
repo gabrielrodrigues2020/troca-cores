@@ -1,0 +1,39 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    border-radius: 10px;
+    height: 400px;
+    width: 700px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+.container p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+}
+.container .buttons {
+    margin-top: 200px;
+}
+.container .buttons button {
+    border: 0;
+    padding: 10px 30px;
+    margin-right: 10px;
+    border-radius: 5px;
+    
+}
+.container .buttons button:hover {
+    transform: scale(1.05);
+    transition: all 0.2s ;
+}
