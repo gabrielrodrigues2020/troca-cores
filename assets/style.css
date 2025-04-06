@@ -12,9 +12,10 @@ body {
     border-radius: 10px;
     height: 400px;
     width: 700px;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
+    border: 1px solid black;
 }
 .container p {
     color: white;
@@ -36,4 +37,22 @@ body {
 .container .buttons button:hover {
     transform: scale(1.05);
     transition: all 0.2s ;
+}
+.Vermelho {
+    background-color: red;
+}
+.verde {
+    background-color: green;
+}
+.azul {
+    background-color: blue;
+}
+.amarelo {
+    background-color: yellow;
+}
+.rosa {
+    background-color: pink;
+}
+.roxo {
+    background-color: purple;
 }
